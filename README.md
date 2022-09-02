@@ -6,7 +6,7 @@ While searching for the final hosting endpoint I have uploaded the image to http
 
 (MD5: 34ebf2fe48e41d031c4ed27ef8345be8  illumos-rpi.img.xz)
 
-The file contains a pre-build image (SD-Card 16GB) for those in giving illumos ARM a testdrive while not having the possibility to setup 
+The file contains a pre-build image (SD-Card 16GB) for those interested in giving illumos ARM a testdrive while not having the possibility to setup 
 the development environment.
 
 Remember that the current illumos port only supports an UART console, GbE and the Micro-SD. No USB (keyboard/mouse), no video (console framebuffer, framebuffer, accelerated video), no audio, no power management, etc. You have to connect to the UART GPIO's (J8 Header) of your Pi 4 (GND (Pin 6), TXD (Pin 8), RXD (Pin 10)) and will be able to access via for favorite terminal program to the Pi and the illumos console (e.g. screen /dev/ttyUSB0 115200 or /dev/ttys000 if using and USB2Serial adapter).
