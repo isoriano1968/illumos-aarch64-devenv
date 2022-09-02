@@ -2,11 +2,11 @@
 
 Inofficial fork of https://github.com/Toasterson/illumos-aarch64-devenv adding wip and artifacts that are not part of the upstream development atm.
 
-The dlc directory contains a pre-build image (SD-Card 16GB) for those in giving illumos ARM a testdrive while not having the possibility to setup 
+While searching for the final file hosting endpoint I have uploaded the imge to 
+The file contains a pre-build image (SD-Card 16GB) for those in giving illumos ARM a testdrive while not having the possibility to setup 
 the development environment.
 
-Remember that the current illumos port only supports an UART console, Gbe and MMC. No USB (keyboard/mouse), no video (console framebuffer, framebuffer,
-accelerated video), no audio, no power management, etc. You have to connect to the UART GPIO's (J8 Header) of your Pi 4 (GND (Pin 6), TXD (Pin 8), RXD (Pin 10)) and will be able to access via for favorite terminal program to the Pi and the illumos console (e.g. screen /dev/ttyUSB0 115200 or /dev/ttys000 if using and USB2Serial adapter).
+Remember that the current illumos port only supports an UART console, GbE and the Micro-SD. No USB (keyboard/mouse), no video (console framebuffer, framebuffer, accelerated video), no audio, no power management, etc. You have to connect to the UART GPIO's (J8 Header) of your Pi 4 (GND (Pin 6), TXD (Pin 8), RXD (Pin 10)) and will be able to access via for favorite terminal program to the Pi and the illumos console (e.g. screen /dev/ttyUSB0 115200 or /dev/ttys000 if using and USB2Serial adapter).
 
 hostname: illumos-rpi
 
