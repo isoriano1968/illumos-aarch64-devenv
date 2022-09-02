@@ -33,7 +33,7 @@ root/rpi will grant you access and now enjoy exploring illumos SolARM.
 # We need your support
 
 Your background does not matter, so many areas where support is more than welcome. We currently need every helping hand that feels comfortable in
-something that still has to evolve.
+something that still has to evolve. Solaris, BSD, Linux, AMIGA, ARM, Pi etc citizens welcome .. there is always something to do for all of us :-)
 
 # References
 
