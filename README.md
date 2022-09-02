@@ -30,10 +30,16 @@ It should start booting from the secondary partiton on the Micro-SD card (zfs) a
 
 root/rpi will grant you access and now enjoy exploring illumos SolARM.
 
-# We need you support
+# We need your support
 
 Your background does not matter, so many areas where support is more than welcome. We currently need every helping hand that feels comfortable in
-something that still has to evolve. 
+something that still has to evolve.
+
+# References
+
+https://www.illumos.org/books/dev/
+
+https://dlc.openindiana.org/docs/osol/20090715/DRIVER/html/docinfo.html
 
 Thx
 
