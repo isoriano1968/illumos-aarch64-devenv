@@ -9,9 +9,10 @@ Remember that the current illumos port only supports an UART console, Gbe and MM
 accelerated video), no audio, no power management, etc. You have to connect to the UART GPIO's (J8 Header) of your Pi 4 (GND (Pin 6), TXD (Pin 8), RXD (Pin 10)) and will be able to access via for favorite terminal program to the Pi and the illumos console (e.g. screen /dev/ttyUSB0 115200 or /dev/ttys000 if using and USB2Serial adapter).
 
 hostname: illumos-rpi
+
 login: root/rpi
 
-The pre-build image runs on Pi4 hardware (Pi 4B, Pi400, CM4)
+The pre-build image runs on Pi 4 hardware (Pi 4B, Pi400, CM4)
 
 # Howto use
 
