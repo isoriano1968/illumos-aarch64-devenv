@@ -2,7 +2,8 @@
 
 Inofficial fork of https://github.com/Toasterson/illumos-aarch64-devenv adding wip and artifacts that are not part of the upstream development atm.
 
-While searching for the final hosting endpoint I have uploaded the image to https://ufile.io/v2qke5yy (MD5: 34ebf2fe48e41d031c4ed27ef8345be8  illumos-rpi.img.xz)
+While searching for the final hosting endpoint I have uploaded the image to https://ufile.io/v2qke5yy 
+(MD5: 34ebf2fe48e41d031c4ed27ef8345be8  illumos-rpi.img.xz)
 
 The file contains a pre-build image (SD-Card 16GB) for those in giving illumos ARM a testdrive while not having the possibility to setup 
 the development environment.
