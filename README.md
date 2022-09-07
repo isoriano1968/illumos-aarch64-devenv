@@ -17,7 +17,7 @@ login: root/rpi
 
 The pre-build image runs on Pi 4 hardware (Pi 4B, Pi400, CM4)
 
-# Howto use
+# How to use
 
 Extract illumos-rpi.img.xz and dd to an empty Micro-SD.
 
