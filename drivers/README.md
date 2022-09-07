@@ -4,9 +4,9 @@ framebuffer for VideoCore of BCM2711
 
 - Communication done via mailboxes (mbox)
 
-- // The buffer must be 16-byte aligned as only the upper 28 bits of the address can be passed via the mailbox
+- The buffer must be 16-byte aligned as only the upper 28 bits of the address can be passed via the mailbox
 volatile unsigned int __attribute__((aligned(16))) mbox[36];
-- First we include _io.h_ as we need access to the `PERIPHERAL_BASE` definition and also to make use of the `mmio_read` and `mmio_write` functions that _io.c_ provides. Our previous MMIO experience is useful here, as sending/receiving mailbox request/responses is achieved using the same technique. We'll just be addressing different offsets from `PERIPHERAL_BASE`, as you see in the code.
+- First we include _io.h_ as we need access to the `PERIPHERAL_BASE` definition and also to make use of the `mmio_read` and `mmio_write` functions that _io.c_ provides. MMIO experience is useful here, as sending/receiving mailbox request/responses is achieved using the same technique. We'll just be addressing different offsets from `PERIPHERAL_BASE`, as you see in the code.
 
 Importantly, our mailbox buffer (where messages will be stored) needs to be correctly aligned in memory. This is one example where we need to be strict with the compiler instead of letting it do its thing! By ensuring the buffer is "16-byte aligned", we know that its memory address is a multiple of 16 i.e. the 4 least significant bits are not set. That's good, because only the 28 most significant bits can be used as the address, leaving the 4 least significant bits to specify the **channel**.
 
